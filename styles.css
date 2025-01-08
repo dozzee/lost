@@ -218,3 +218,33 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+.charity-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.charity-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
+}
+
+.charity-section p {
+    margin-top: 10px;
+    color: var(--text-dim);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+blockquote {
+    border-left: 5px solid var(--neon-blue);
+    padding-left: 15px;
+    margin: 30px 0;
+    font-style: italic;
+    color: var(--text);
+    background: rgba(0, 243, 255, 0.05);
+    border-radius: 4px;
+}
